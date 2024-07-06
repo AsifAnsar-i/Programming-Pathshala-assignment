@@ -3,7 +3,7 @@ import { Input } from "./ui/input";
 
 const Footer = () => {
   return (
-    <div className="w-[1440px] h-[328px] bg-[#263238] mx-auto">
+    <div className="w-full h-[328px] bg-[#263238] mx-auto">
       <div className="py-16 flex items-center  justify-around">
         <div className="flex flex-col gap-[40px]">
           <img
@@ -70,10 +70,10 @@ const Footer = () => {
               Support
             </span>
             <div className="flex flex-col gap-[12px]">
-              <span className="font-normal text-sm leading-5 text-[#F5F7FA]">
+              <span className="font-normal text-sm leading-5 !text-[#F5F7FA]">
                 Help center
               </span>
-              <span className="font-normal text-sm leading-5 text-[#F5F7FA]">
+              <span className="font-normal text-sm leading-5 !text-[#F5F7FA]">
                 Terms of service
               </span>
               <span className="font-normal text-sm leading-5 text-[#F5F7FA]">
