@@ -12,6 +12,7 @@ import HelpSection from "@/components/HelpSection";
 import SecondHero from "@/components/SecondHero";
 import Product from "@/components/Product";
 import GetDemo from "@/components/GetDemo";
+import MarketSection from "@/components/MarketSection";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -44,9 +45,9 @@ export default function RootLayout({
         <HelpSection />
         <SecondHero />
         <Product />
+        <MarketSection />
         <GetDemo />
         <main className="flex-1">{children}</main>
-       
         <Footer />
       </body>
     </html>
