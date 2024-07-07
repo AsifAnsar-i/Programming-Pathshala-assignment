@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import { Club } from "lucide-react";
+import Image from "next/image";
 
 interface HelpSectionProps {
 
@@ -81,7 +82,7 @@ const HelpSection: React.FC<HelpSectionProps> = () => {
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-20 mt-6 lg:mt-0">
           <div className="flex items-center gap-3">
-            <img
+            <Image
               src="/assets/grp.svg"
               alt="help"
               className="w-12 h-12 lg:w-[48px] lg:h-[48px]"
@@ -107,7 +108,7 @@ const HelpSection: React.FC<HelpSectionProps> = () => {
             </div>
           </div>
           <div className="flex items-center gap-3">
-            <img
+            <Image
               src="/assets/click.svg"
               alt="help"
               className="w-12 h-12 lg:w-[48px] lg:h-[48px]"
@@ -122,7 +123,7 @@ const HelpSection: React.FC<HelpSectionProps> = () => {
             </div>
           </div>
           <div className="flex items-center gap-3">
-            <img
+            <Image
               src="/assets/card.svg"
               alt="help"
               className="w-12 h-12 lg:w-[48px] lg:h-[48px]"

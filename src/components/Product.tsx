@@ -1,5 +1,6 @@
 import React from "react";
 import { MoveRight } from "lucide-react";
+import Image from "next/image";
 
 interface ProductProps {
   // Define props if any
@@ -9,7 +10,7 @@ const Product: React.FC<ProductProps> = () => {
   return (
     <div className="w-full bg-[#F5F7FA] py-7 px-4 lg:px-14">
       <div className="flex flex-col lg:flex-row items-center justify-around">
-        <img
+        <Image
           src="/assets/proimg.jpg"
           alt="hero"
           className="w-full lg:w-[326px] h-[326px] rounded-[8px] mb-6 lg:mb-0 lg:mr-10"
@@ -34,32 +35,32 @@ const Product: React.FC<ProductProps> = () => {
             British Dragon Boat Racing Association
           </p>
           <div className="sm:flex grid grid-cols-2 items-center gap-2 lg:gap-6">
-            <img
+            <Image
               src="/assets/product/1.svg"
               alt="arrow"
               className="w-[36px] h-[36px]"
             />
-            <img
+            <Image
               src="/assets/product/2.svg"
               alt="arrow"
               className="w-[36px] h-[36px]"
             />
-            <img
+            <Image
               src="/assets/product/3.svg"
               alt="arrow"
               className="w-[36px] h-[36px]"
             />
-            <img
+            <Image
               src="/assets/product/4.svg"
               alt="arrow"
               className="w-[36px] h-[36px]"
             />
-            <img
+            <Image
               src="/assets/product/5.svg"
               alt="arrow"
               className="w-[36px] h-[36px]"
             />
-            <img
+            <Image
               src="/assets/product/6.svg"
               alt="arrow"
               className="w-[36px] h-[36px]"

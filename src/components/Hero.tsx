@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
             Register
           </Button>
         </div>
-        <img
+        <Image
           src="/assets/hero.svg"
           alt="hero"
           className="w-full max-w-[250px] sm:max-w-[300px] md:max-w-[350px] lg:max-w-[391px] h-auto mt-6 lg:mt-0"

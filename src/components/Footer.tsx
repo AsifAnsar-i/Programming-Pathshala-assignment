@@ -1,5 +1,6 @@
 import React from "react";
 import { Input } from "./ui/input";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-12">
           <div className="flex flex-col items-center md:items-start gap-12 md:w-1/4">
-            <img
+            <Image
               src="/assets/footerlogo.svg"
               alt="logo"
               className="w-[154.49px] h-[24px]"
@@ -21,22 +22,22 @@ const Footer = () => {
               </span>
             </div>
             <div className="flex gap-4 mt-4">
-              <img
+              <Image
                 src="/assets/insta.svg"
                 alt="instagram"
                 className="w-[32px] h-[32px]"
               />
-              <img
+              <Image
                 src="/assets/explore.svg"
                 alt="explore"
                 className="w-[32px] h-[32px]"
               />
-              <img
+              <Image
                 src="/assets/twitter.svg"
                 alt="twitter"
                 className="w-[32px] h-[32px]"
               />
-              <img
+              <Image
                 src="/assets/youtube.svg"
                 alt="youtube"
                 className="w-[32px] h-[32px]"
@@ -98,7 +99,7 @@ const Footer = () => {
                   placeholder="Your email address"
                   className="w-full h-10 lg:w-[150px] rounded-md !border-none bg-[#515b60] text-white placeholder-[#F5F7FA] px-4"
                 />
-                <img
+                <Image
                   src="/assets/share.svg"
                   alt="arrow"
                   className="absolute top-2 right-2 w-4 h-4"

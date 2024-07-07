@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "./ui/button";
 import {
   Sheet,
@@ -40,7 +41,7 @@ const Header = () => {
           <Sheet>
             <SheetTrigger>
               <div className="block lg:hidden">
-                <img
+                <Image
                   src="/assets/hamburger.svg"
                   alt="menu"
                   className="h-[30px] w-[30px]"

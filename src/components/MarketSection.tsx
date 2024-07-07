@@ -1,5 +1,6 @@
 import React from "react";
 import { MoveRight } from "lucide-react";
+import Image from "next/image";
 
 const MarketSection = () => {
   return (
@@ -16,7 +17,6 @@ const MarketSection = () => {
             membership income and lot's more.
           </p>
         </div>
-
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="relative">
             <img
@@ -34,9 +34,8 @@ const MarketSection = () => {
               </div>
             </div>
           </div>
-
           <div className="relative">
-            <img
+            <Image
               src="/assets/img2.jpg"
               alt="hero"
               className="w-full rounded-[8px] object-cover"
@@ -52,9 +51,8 @@ const MarketSection = () => {
               </div>
             </div>
           </div>
-
           <div className="relative">
-            <img
+            <Image
               src="/assets/img3.jpg"
               alt="hero"
               className="w-full rounded-[8px] object-cover"

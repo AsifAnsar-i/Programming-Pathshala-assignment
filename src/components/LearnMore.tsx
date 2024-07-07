@@ -1,11 +1,12 @@
 import React from "react";
 import { Button } from "./ui/button";
+import Image from "next/image";
 
 const LearnMore = () => {
   return (
     <div className="w-full h-auto py-16">
       <div className="flex flex-col items-center gap-6 lg:flex-row lg:justify-evenly lg:items-start">
-        <img
+        <Image
           src="/assets/learnMore.svg"
           alt="learn more"
           className="w-full max-w-[441px] h-auto lg:w-[441px] lg:h-[328px]"

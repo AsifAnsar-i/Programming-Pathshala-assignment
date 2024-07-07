@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const brand = [
@@ -24,7 +25,7 @@ const Brand = () => {
         </div>
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-8 px-4 sm:px-10 lg:px-20 py-5">
           {brand.map((item, index) => (
-            <img
+            <Image
               src={item}
               alt="brand"
               className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20"
